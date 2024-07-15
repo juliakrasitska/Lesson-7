@@ -1,0 +1,299 @@
+*
+{margin: 0 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.head{
+    max-width: 1440px;
+}
+.container {
+    max-width: 1440px;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: white;
+   
+
+}
+
+.header {
+    
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-left: 185px;
+    
+
+}
+
+.header img {
+    height: 20px;
+    margin-top: 10px;
+
+
+}
+
+.cross {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    background-image: url(/accets/Group\ 8.png);
+    position: relative;
+    cursor: pointer;
+    background-size: cover;
+}
+
+
+.cross ul {
+    position: absolute;
+    min-width: 200px;
+    height: 150px;
+    box-shadow: 1px solid gray;
+    list-style:none ;
+    background-color: white;
+    display: none;
+    margin-top: 40px;
+
+}
+
+ul a {
+    color: black;
+    padding: 25px;
+    
+}
+
+.cross:hover>ul {
+    display: block;
+}
+.main{
+    width: 100%;
+    display: flex;
+}
+.second{
+    width: 50%;
+    height: 400px;
+    background-color: black;
+}
+.first{
+    width: 50%;
+    height: 400px;
+background-image: url(/accets/Гольф.png);
+background-size: cover;}
+    .frame{
+        width: 400px;
+        height: 300px;
+        margin: 60px auto;
+    }
+    p{
+        color: white;
+        font: kanit;
+    }
+    .framework{
+      
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 60px;
+    }
+    h1{
+        font-size: 25px;
+        margin-bottom: 15px;
+
+    }
+    h2{
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+     .read{
+        width: 150px;
+        height: 30px;
+        background-color: black;
+        border: 1px solid white
+    }
+    button p{
+        padding: 5px;
+    }
+    .all{
+        width: 1000px;
+        margin: 0 auto;
+        
+    }
+    .all p{
+        color: black;
+        margin-bottom: 15px;
+    }
+    .two{
+       
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    .black{ width: 480px;
+        height: 300px;
+        background-image: url(/accets/black.png);
+        background-size: cover;
+    }
+    .man{ width: 480px;
+        height: 300px;
+        background-image: url(/accets/man.png);
+        background-size: cover;
+    }
+    .text{
+        width: 480px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    .between{
+        display: flex;
+       gap: 40px;
+    }
+    .triple{
+        display: flex;
+        justify-content: space-between;
+    }
+.sky {
+    width: 300px;
+    height: 200px;
+    background-image: url(/accets/sky.png);
+    margin-bottom: 15px;
+}
+.magazine{
+    width: 300px;
+    height: 200px;
+    background-image: url(/accets/magazine.png);
+    margin-bottom: 15px;
+}
+.boys{
+    width: 300px;
+    height: 200px;
+    background-image: url(/accets/boys.png);
+    margin-bottom: 15px;
+}
+.texto{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.textu{
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: large;
+    font-weight: 500;
+
+}
+ .see{width: 150px;
+    height: 30px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.main-1{
+    
+    display: flex;
+   
+  margin-bottom: 15px;
+
+
+}
+.coffee{
+    background-image: url(/accets/coffee.png);
+    width: 50%;
+    height: 350px;
+    background-size: cover;
+}
+.rectangle{
+    width: 50%;
+    height: 350px;
+    background-color: black;
+}
+.button{
+    margin: 130px ;
+    width: 300px;
+    height: 300px;
+
+    
+}
+.button h1{
+    margin-top: 50px;
+    color: white;
+    margin: 0 auto;
+
+}
+.button .subscribe{
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    border: 1px solid white;
+   margin-left: 45px;
+   margin-top: 15px;
+    
+}
+.subscribe p{
+padding: 5px;
+color: white;
+}
+.party {
+    width: 300px;
+    height: 200px;
+    background-image: url(/accets/party.png);
+    margin-bottom: 15px;
+}
+.dog{
+    width: 300px;
+    height: 200px;
+    background-image: url(/accets/dog.png);
+    margin-bottom: 15px;
+}
+.orange{
+    width: 300px;
+    height: 200px;
+    background-image: url(/accets/orange.png);
+    margin-bottom: 15px;
+}
+.microphone {
+    width: 300px;
+    height: 200px;
+    background-image: url(/accets/microphone.png);
+    margin-bottom: 15px;
+}
+.yellow{
+    width: 300px;
+    height: 200px;
+    background-image: url(/accets/yellow.png);
+    margin-bottom: 15px;
+}
+.red{
+    width: 300px;
+    height: 200px;
+    background-image: url(/accets/red.png);
+    margin-bottom: 15px;
+}
+.end{
+    margin-top: 50px;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    
+}
+.end img{
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 580px;
+
+}
+.last{
+    font-weight: 100;
+    font-size: 15px;
+    color: white;
+    margin-left: 570px;
+    margin-top: 15px;
+}
